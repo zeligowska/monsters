@@ -1,3 +1,42 @@
 body {
-    background-color: pink;
+    background-color: #EFEEEE;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #325D79;
+}
+
+.list-group-item {
+    border-radius: 5px;
+    margin-bottom: 3px;
+    color: #325D79;
+}
+
+.list-group-item-title {
+    margin-bottom: 10px;
+}
+
+.list-group-item+.list-group-item.active {
+    background-color: #F26627;
+    border-color: #325D79;
+}
+
+.list-group-item+.list-group-item:hover {
+    background-color: #F9A26C
+}
+
+.card {
+    margin: 30px 30px 30px 0;
+    width: 400px;
+}
+
+.monsters-container {
+    display: flex;
+}
+
+.monsters-list {
+    width: 30vw;
+    margin: 30px;
 }
