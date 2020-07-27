@@ -70,3 +70,27 @@ h1 {
 .list-group-item-title:hover {
     background-color: white !important;
 }
+
+@media only screen and (max-width: 544px) {
+    .monsters-list {
+        width: 80%;
+    }
+
+    .monsters-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: unset;
+    }
+
+    #monster-card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
