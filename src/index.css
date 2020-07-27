@@ -16,11 +16,26 @@ h1 {
 
 .list-group-item-title {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list-group-item+.list-group-item.active {
     background-color: #F26627;
     border-color: #325D79;
+}
+
+.list-group-item.active {
+    background-color: #F26627;
+    border-color: #325D79;
+}
+
+.list-group-item.active:hover {
+    background-color: #F9A26C
+}
+
+.list-group-item:first-child:hover {
+    background-color: #F9A26C
 }
 
 .list-group-item+.list-group-item:hover {
@@ -39,4 +54,19 @@ h1 {
 .monsters-list {
     width: 30vw;
     margin: 30px;
+}
+
+
+.sort-button-icon {
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.sort-button-icon__down {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.list-group-item-title:hover {
+    background-color: white !important;
 }

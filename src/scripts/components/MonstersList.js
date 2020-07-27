@@ -12,6 +12,7 @@ const fetchMonster = slug => {
 };
 
 export const renderMonstersList = monsters => {
+    monstersList.innerHTML = "";
     monsters.map(element => {
         const handleClick = () => {
             fetchMonster(element.slug);
